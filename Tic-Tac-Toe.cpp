@@ -13,7 +13,7 @@
 /////////////////////////////////////////////////////////////////////////////////////////////
 #include <conio.h> // for getchar()
 #include <iostream>
-#include <windows.h> // for win32 API (a Fancy name)
+#include <windows.h> // for win32 API as i need to control the cursor position
 
 using namespace std;
 
