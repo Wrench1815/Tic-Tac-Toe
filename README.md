@@ -22,9 +22,18 @@ Clone or Download as a zip it's your choice.
 
 To directly build and run the game using MinGW or GCC:, do as follow:
 
+### with MinGW or GNU-GCC
+
 1. Open a Command line terminal either Command Prompt or Powershell.
 2. Type 'gcc Tic-Tac-Toe.cpp -o Tic-Tac-Toe' this will create an executable file.
-3. run the file directly.
+3. Run the file.
+
+### with MSVC (Microsoft Visual C)
+
+1. Open a Developers Command Line as Admin.
+2. cd to the directory where you extracted the code or where GitHub cloned it.
+3. Type 'cl Tic-Tac-Toe.cpp /EHsc' (EHsc is to handle some Exception) and press Enter.
+4. Here's the compiled Executable.
 
 # Download Directly
 
