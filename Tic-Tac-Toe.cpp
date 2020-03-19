@@ -300,7 +300,7 @@ int TicTacToe::GameStatus() {
 // here starts the main()
 int main() {
 	TicTacToe Board;
-	char Flag = ' ', Choice; // Flag set to ' ' because it is easier to test the status this way as the default Matrix is filled withs spaces
+	char Flag = ' ', Choice; // Flag set to ' ' because it is easier to test the status this way as the default Matrix is filled with spaces
 							 // so if there is another value returned by Method GameStatus(), then the winner has been found unless go on
 	Board.CursorPos(30, 10);
 	cout << "**This is a Game of Tic Tac Toe**" << endl;
@@ -315,7 +315,7 @@ int main() {
 	// choice to play or not
 	if (Choice == 'y') {
 
-		// do while loop with required logic to run the game untill winner is not found or game draws....
+		// do while loop with required logic to run the game until winner is not found or game draws....
 		do {
 			system("cls");
 			Board.DisplayMatrix();
