@@ -195,7 +195,7 @@ void TicTacToe::Player1Move() {
 
 P1Respawn:
 
-	cout << "     ****Palyer 1****" << endl;
+	cout << "     ****Player 1****" << endl;
 	cout << "Enter X Y Coordinate to Fill" << endl;
 	cin >> t1 >> t2;
 
@@ -236,7 +236,7 @@ void TicTacToe::Player2Move() {
 
 P2Respawn:
 
-	cout << "     ****Palyer 2****" << endl;
+	cout << "     ****Player 2****" << endl;
 	cout << "Enter X Y Coordinate to Fill" << endl;
 	cin >> t1 >> t2;
 
@@ -305,7 +305,7 @@ int main() {
 	Board.CursorPos(30, 10);
 	cout << "**This is a Game of Tic Tac Toe**" << endl;
 	Board.CursorPos(27, 11);
-	cout << "**You will be playing against Computer**\n";
+	cout << "**Two Players will be Playing against each otherPre**\n";
 	Board.DisplayMatrix();
 	Board.CursorPos(44, 18);
 	cout << "Ready (y/n)";
@@ -339,7 +339,7 @@ int main() {
 		if (Flag == 'X') {
 			Board.DisplayMatrix();
 			Board.CursorPos(45, 18);
-			cout << "Palyer 1 Win!!\n";
+			cout << "Player 1 Win!!\n";
 			Board.CursorPos(45, 20);
 			getch();
 		}
@@ -347,7 +347,7 @@ int main() {
 		else {
 			Board.DisplayMatrix();
 			Board.CursorPos(45, 18);
-			cout << "Palyer 2 win!!\n";
+			cout << "Player 2 win!!\n";
 			Board.CursorPos(45, 20);
 			getch();
 		}
