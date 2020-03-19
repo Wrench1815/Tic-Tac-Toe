@@ -28,6 +28,6 @@ To directly build and run the game using MinGW or GCC:, do as follow:
 
 # Download Directly
 
-or you can download the executable from releases page directly.
+You can also download the executable from [releases](https://github.com/Wrench1815/Tic-Tac-Toe/releases) page directly.
 
 ## Contributions to the Code Welcomed
