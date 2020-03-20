@@ -12,7 +12,7 @@
 /////////////////////////////////////////////////////////////////////////////////////////////
 #include <conio.h> // for getchar()
 #include <iostream>
-#include <windows.h> // to control the cursor position
+#include <windows.h> // to control the cursor position neede to include windows.h
 
 using namespace std;
 
