@@ -7,7 +7,6 @@
 /// Tic Tac Toe Game player vs player
 ///
 /// One Player against another player
-/// fight till Death JK ;)
 /// use of win32 API(sort of not completely) for only controlling Cursor Position
 ///
 /////////////////////////////////////////////////////////////////////////////////////////////
