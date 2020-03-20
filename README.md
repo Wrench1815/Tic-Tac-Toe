@@ -4,7 +4,7 @@ A Basic Command Line Mini Project made using c++, a little Game named Tic Tac To
 
 # IDE used
 
-for creating this mini game i used VS Code (Visual Studio Code). but you can use any IDE which supports C++11 or ISO C++. Turbo wont work.
+For creating this mini game i used VS Code (Visual Studio Code). but you can use any IDE which supports C++11 or ISO C++. Turbo wont work.
 
 # Download the Code
 
