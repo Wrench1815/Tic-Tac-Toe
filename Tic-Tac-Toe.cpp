@@ -7,12 +7,12 @@
 /// Tic Tac Toe Game player vs player
 ///
 /// One Player against another player
-/// use of win32 API(sort of not completely) for only controlling Cursor Position
+/// use of win32 API Cursor Controls for controlling Cursor Position
 ///
 /////////////////////////////////////////////////////////////////////////////////////////////
 #include <conio.h> // for getchar()
 #include <iostream>
-#include <windows.h> // for win32 API as i need to control the cursor position
+#include <windows.h> // to control the cursor position
 
 using namespace std;
 
