@@ -20,7 +20,7 @@ Clone or Download as a zip it's your choice.
 
 # Building or Compiling
 
-To directly build and run the game using MinGW or GCC:, do as follow:
+To directly build and run the game using MinGW / GCC or MSVC do as follow:
 
 ### with MinGW or GNU-GCC
 
@@ -32,7 +32,7 @@ To directly build and run the game using MinGW or GCC:, do as follow:
 
 1. Open a Developers Command Line as Admin.
 2. cd to the directory where you extracted the code or where GitHub cloned it.
-3. Type 'cl Tic-Tac-Toe.cpp /EHsc' (EHsc is to handle some Exception) and press Enter.
+3. Type 'cl Tic-Tac-Toe.cpp /EHsc' (EHsc is to handle some Exception regarding the use getch() instead of \_getch() ) and press Enter.
 4. Here's the compiled Executable.
 
 # Download Directly
