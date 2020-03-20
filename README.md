@@ -4,7 +4,7 @@ A Basic Command Line Mini Project made using c++, a little Game named Tic Tac To
 
 # IDE used
 
-for creating htis mini game i used VS Code (Visual Studio Code). but you can use any IDE which supports C++11 or ISO C++. Turbo wont work.
+for creating this mini game i used VS Code (Visual Studio Code). but you can use any IDE which supports C++11 or ISO C++. Turbo wont work.
 
 # Download the Code
 
@@ -32,7 +32,7 @@ To directly build and run the game using MinGW / GCC or MSVC do as follow:
 
 1. Open a Developers Command Line as Admin.
 2. cd to the directory where you extracted the code or where GitHub cloned it.
-3. Type 'cl Tic-Tac-Toe.cpp /EHsc' (EHsc is to handle some Exception regarding the use getch() instead of _getch() ) and press Enter.
+3. Type 'cl Tic-Tac-Toe.cpp /EHsc' (EHsc is to handle some Exception regarding the use getch() instead of \_getch() ) and press Enter.
 4. Here's the compiled Executable.
 
 # Download Directly
